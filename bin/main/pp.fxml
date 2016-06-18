@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="616.0" prefWidth="651.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Controller">
+   <children>
+      <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="492.0" prefWidth="753.0">
+         <children>
+            <Label layoutX="23.0" layoutY="20.0" prefWidth="200.0" text="Pitch Name" />
+            <Label layoutX="214.0" layoutY="22.0" minHeight="13.0" prefHeight="13.0" prefWidth="187.0" text="Pitch Abbreviation" />
+            <Label layoutX="555.0" layoutY="20.0" prefWidth="174.0" text="Pitch %" />
+            <Pane layoutX="14.0" layoutY="14.0" prefHeight="71.0" prefWidth="554.0">
+               <children>
+                  <TextField fx:id="pitchName1" layoutX="6.0" layoutY="43.0" pickOnBounds="false" prefWidth="153.99997792968497" />
+                  <TextField fx:id="pitchAbbrev1" layoutX="200.0" layoutY="43.0" prefWidth="59.000099999997474" />
+                  <Slider fx:id="slider1" layoutX="300.0" layoutY="47.0" prefWidth="213.0" />
+               </children>
+            </Pane>
+            <Pane layoutX="7.0" layoutY="429.0" prefHeight="71.0" prefWidth="554.0">
+               <children>
+                  <TextField fx:id="pitchName9" layoutX="13.0" layoutY="43.0" prefWidth="153.99997792968497" />
+                  <TextField fx:id="pitchAbbrev9" layoutX="206.0" layoutY="42.0" prefWidth="59.000099999997474" />
+                  <Slider fx:id="slider9" layoutX="308.0" layoutY="47.0" prefWidth="213.0" />
+               </children>
+            </Pane>
+            <Pane layoutX="7.0" layoutY="380.0" prefHeight="71.0" prefWidth="554.0">
+               <children>
+                  <TextField id="pitchName1" fx:id="pitchName8" layoutX="14.0" layoutY="38.0" prefWidth="154.0" />
+                  <TextField fx:id="pitchAbbrev8" layoutX="206.0" layoutY="38.0" prefWidth="59.000099999997474" />
+                  <Slider fx:id="slider8" layoutX="308.0" layoutY="44.0" prefWidth="213.0" />
+                  <Pane id="freq2" layoutX="7.0" layoutY="-57.0" prefHeight="71.0" prefWidth="554.0">
+                     <children>
+                        <TextField fx:id="pitchName7" layoutX="7.0" layoutY="43.0" prefWidth="153.99997792968497" />
+                        <TextField fx:id="pitchAbbrev7" layoutX="200.0" layoutY="43.0" prefWidth="59.000099999997474" />
+                        <Slider fx:id="slider7" layoutX="301.0" layoutY="49.0" prefWidth="213.0" />
+                        <Pane layoutY="-57.0" prefHeight="71.0" prefWidth="554.0">
+                           <children>
+                              <TextField fx:id="pitchName6" layoutX="7.0" layoutY="43.0" prefWidth="153.99997792968497" />
+                              <TextField fx:id="pitchAbbrev6" layoutX="200.0" layoutY="43.0" prefWidth="59.000099999997474" />
+                              <Slider fx:id="slider6" layoutX="300.0" layoutY="47.0" prefWidth="213.0" />
+                              <Pane layoutY="-35.0" prefHeight="71.0" prefWidth="554.0">
+                                 <children>
+                                    <TextField fx:id="pitchName5" layoutX="8.0" layoutY="23.0" prefWidth="153.99997792968497" />
+                                    <TextField fx:id="pitchAbbrev5" layoutX="201.0" layoutY="24.0" prefWidth="59.000099999997474" />
+                                    <Slider fx:id="slider5" layoutX="301.0" layoutY="28.0" prefWidth="213.0" />
+                                 </children>
+                              </Pane>
+                           </children>
+                        </Pane>
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+            <TextField fx:id="freq2" layoutX="555.0" layoutY="101.0" prefHeight="29.9609375" prefWidth="72.0" />
+            <TextField fx:id="freq3" layoutX="555.0" layoutY="151.0" prefHeight="29.9609375" prefWidth="72.0" />
+            <TextField fx:id="freq4" layoutX="555.0" layoutY="197.0" prefHeight="29.9609375" prefWidth="72.0" />
+            <TextField fx:id="freq5" layoutX="555.0" layoutY="246.0" prefHeight="29.9609375" prefWidth="72.0" />
+            <Pane layoutX="14.0" layoutY="116.0" prefHeight="71.0" prefWidth="554.0">
+               <children>
+                  <TextField fx:id="pitchName3" layoutX="7.0" layoutY="42.0" prefWidth="153.99997792968497" />
+                  <TextField fx:id="pitchAbbrev3" layoutX="200.0" layoutY="43.0" prefWidth="59.000099999997474" />
+                  <Slider fx:id="slider3" layoutX="300.0" layoutY="47.0" prefWidth="213.0" />
+               </children>
+            </Pane>
+            <Pane layoutX="14.0" layoutY="80.0" prefHeight="71.0" prefWidth="554.0">
+               <children>
+                  <TextField fx:id="pitchName2" layoutX="7.0" layoutY="23.0" prefWidth="153.99997792968497" />
+                  <TextField fx:id="pitchAbbrev2" layoutX="200.0" layoutY="23.0" prefWidth="59.000099999997474" />
+                  <Slider fx:id="slider2" layoutX="297.0" layoutY="29.0" prefWidth="213.0" />
+               </children>
+            </Pane>
+            <Pane layoutX="14.0" layoutY="182.0" prefHeight="71.0" prefWidth="554.0">
+               <children>
+                  <TextField fx:id="pitchName4" layoutX="7.0" layoutY="23.0" prefWidth="153.99997792968497" />
+                  <TextField fx:id="pitchAbbrev4" layoutX="200.0" layoutY="24.0" prefWidth="59.000099999997474" />
+                  <Slider fx:id="slider4" layoutX="300.0" layoutY="28.0" prefWidth="213.0" />
+               </children>
+            </Pane>
+            <TextField fx:id="freq6" layoutX="555.0" layoutY="305.0" prefHeight="29.9609375" prefWidth="72.0" />
+            <TextField fx:id="freq7" layoutX="555.0" layoutY="365.0" prefHeight="29.9609375" prefWidth="72.0" />
+            <TextField fx:id="freq8" layoutX="555.0" layoutY="414.0" prefHeight="29.9609375" prefWidth="72.0" />
+            <TextField fx:id="freq1" layoutX="555.0" layoutY="50.0" prefHeight="29.9609375" prefWidth="72.0" />
+            <TextField fx:id="freq9" layoutX="555.0" layoutY="470.0" prefHeight="29.9609375" prefWidth="72.0" />
+         </children>
+      </AnchorPane>
+      <Button id="" fx:id="generateExcelButton" layoutX="20.0" layoutY="577.0" mnemonicParsing="false" prefWidth="154.0" text="Generate Sheets" />
+      <Label id="" fx:id="totalPercentageLabel" alignment="CENTER_RIGHT" layoutX="529.0" layoutY="560.0" prefHeight="59.0" prefWidth="98.0" text="100%">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <Separator layoutX="555.0" layoutY="563.0" prefHeight="4.0" prefWidth="72.0" />
+      <Pane layoutX="7.0" layoutY="506.0" prefHeight="71.0" prefWidth="687.0">
+         <children>
+            <TextField fx:id="pitchName10" layoutX="14.0" layoutY="22.0" prefWidth="154.0" />
+            <TextField fx:id="pitchAbbrev10" layoutX="207.0" layoutY="22.0" prefWidth="59.000099999997474" />
+            <Slider id="slide5" fx:id="slider10" layoutX="309.0" layoutY="29.0" prefWidth="213.0" />
+            <TextField fx:id="freq10" layoutX="550.0" layoutY="21.0" prefHeight="29.9609375" prefWidth="72.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
