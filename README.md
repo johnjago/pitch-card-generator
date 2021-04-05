@@ -5,10 +5,10 @@ This is an application that generates random baseball/softball pitch calling car
 - A matching coach sheet is generated.
 - Multiple sheets can be created from the same data.
 
-Download the [application](https://github.com/johnjago/Pitch/releases/download/v1.0/PitchCardGenerator.jar) (all operating systems).
+Download the [application](https://github.com/johnjago/pitch-card-generator/releases/download/v1.0/PitchCardGenerator.jar) (all operating systems).
 
-![Application window](https://raw.githubusercontent.com/johnjago/Pitch/master/sample-1.png)
+![Application window](sample-1.png)
 
-![Player sheet](https://raw.githubusercontent.com/johnjago/Pitch/master/sample-2.png)
+![Player sheet](sample-2.png)
 
-![Coach sheet](https://raw.githubusercontent.com/johnjago/Pitch/master/sample-3.png)
+![Coach sheet](sample-3.png)
